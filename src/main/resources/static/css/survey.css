@@ -1,0 +1,63 @@
+/*ELEMENTS*/
+body {
+    /*background-image: url("../images/background-blue.jpg");*/
+    background-color: whitesmoke;
+    background-size: cover;
+    /*width: 100%;*/
+    /*margin: auto;*/
+}
+
+/*TABLE*/
+table.surveys {
+    border: 1px black solid;
+}
+
+.surveys{
+    width: 100%;
+}
+
+.table{
+    margin: auto;
+    border-radius: 10px;
+}
+
+.surveys td {
+    padding: 15px;
+    text-align: left;
+}
+
+table.surveys tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table.surveys tr:nth-child(odd) {
+    background-color: white;
+}
+
+/*FORM*/
+.form-container{
+    width: 500px;
+    /*text-align: center;*/
+    margin: auto;
+}
+
+.gray-background{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.box{
+    width: 400px;
+    margin: auto;
+}
+
+/*FONTS*/
+.blue-font{
+     color: darkblue;
+}
+
+.gray-font{
+    color: #777;
+}
